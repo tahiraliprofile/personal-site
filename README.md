@@ -1,115 +1,72 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-<a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a>
+# Personal Portfolio ⚡️ 
+> A clean, beautiful, responsive portfolio template for Software Developers!
 
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+> https://varadbhogayata.github.io
 
-<p align="center">
+![GitHub stars](https://img.shields.io/github/stars/varadbhogayata/varadbhogayata.github.io) 
+![GitHub forks](https://img.shields.io/github/forks/varadbhogayata/varadbhogayata.github.io)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/varadbhogayata/varadbhogayata.github.io/commits/master)
+[![Website shields.io](https://img.shields.io/badge/website-up-yellow)](http://varadbhogayata.github.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/ask%20me-linkedin-1abc9c.svg)](https://www.linkedin.com/in/varadbhogayata/)
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+### Website Preview
+<p align="center"> 
   <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
+    <a href="https://varadbhogayata.github.io" target="_blank"><img src="examples/preview.gif">
+  </a>
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://developer-portfolio-1hanzla100.vercel.app/)**.
+:star: Star me on GitHub — it helps!
 
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+## Features 📋
+⚡️ Fully Responsive\
+⚡️ Valid HTML5 & CSS3\
+⚡️ Typing animation using `Typed.js`\
+⚡️ Easy to modify
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+## Installation & Deployment 📦
+- Clone the repository and modify the content of <b>index.html</b> according to your requirement.
+- Add or remove images from `varadbhogayata.github.io/assets/img/` directory as per your requirement.
+- I highly recommend to use [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to deploy the website the EASIEST WAY.
+- To deploy your website, first you need to create github repository with name `<your-github-username>.github.io`. Please don't give any other name.
+- Push the generated code to the `master` branch of this repository.
+- <b>NOTE:</b> Make sure to set `analyticsId` from your Google Analytics account inside the Google Analytics script tag, if you want to use your own Google Analytics account.
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
-
-## Sections
-
-✔️ Summary and About me\
-✔️ Skills\
+## Sections 📚
+✔️ About me\
+✔️ Experience\
+✔️ Projects \
+✔️ Skills \
 ✔️ Education\
-✔️ Work Experience\
-✔️ Feedbacks\
-✔️ Projects\
-✔️ Github Profile
+✔️ Contact Info\
+✔️ Resume
 
-## Getting Started
+To view a live example, **[click here](https://varadbhogayata.github.io/)**
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+## Tools Used 🛠️
+* [<b>GitHub Pages</b>](https://create-react-app.dev/docs/deployment/#github-pages) - To host my static website (HTML, CSS, JS).
+* [<b>Materialize</b>](https://materializecss.com/) - A CSS framework to get Google's Material Design components.
+* [<b>Typed.js</b>](https://mattboldt.com/demos/typed-js/) - JavaScript Library
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
-<br>
-**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+## Contributing 💡
+#### Step 1
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
+- **Option 1**
+    - 🍴 Fork this repo!
 
-## How To Use
+- **Option 2**
+    - 👯 Clone this repo to your local machine.
 
-1. Fork this repoistory and clone it to your local machine.
-```bash
-$ git clone https://github.com/<your-username>/developer-portfolio.git
-``` 
-2. Go into the repository
-```bash
-$ cd developer-portfolio
-```
 
-3. Install dependencies
-```bash
-$ yarn
-```
+#### Step 2
 
-4. Edit `portfolio.js`
+- **Build your code** 🔨🔨🔨
 
-5. Start's development server
-```bash
-$ yarn dev
-```
+#### Step 3
 
-## Linking Portfolio to Github
+- 🔃 Create a new pull request.
 
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
-
-#### Using Emojis
-
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
-
-## Technologies Used
-
--   [Next.js](https://nextjs.org/)
--   [axios](https://www.npmjs.com/package/axios)
--   [reactstrap](https://reactstrap.github.io/)
--   [react-reveal](https://www.react-reveal.com/)
--   [react-lottie](https://www.npmjs.com/package/react-lottie)
--   [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
--   [react-headroom](https://github.com/KyleAMathews/react-headroom)
--   [color-thief](https://github.com/lokesh/color-thief)
-
-## Illustrations
-
--   [Lottie File Source](https://lottiefiles.com)
-
-## Icons
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-## For the Future
-
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
--   Enable Dark Mode
-
--   Add More Sections
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
--   Website: https://hanzla.netlify.app
--   Github: [@1hanzla100](https://github.com/1hanzla100)
--   LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+## License 📄
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
