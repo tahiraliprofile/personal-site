@@ -1,5 +1,1 @@
-
-# Visual Studio cache directory
-.vs/
-.vsconfig
-.vscode
+node_modules/
